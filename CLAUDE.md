@@ -65,11 +65,11 @@ Runs weekly to prune old container images, keeping 10 recent versions and ignori
 ## Installed Packages
 
 - `slimbook-meta-common` - Common Slimbook meta package
-- `slimbook-meta-evo` - Evo series laptop support
+- `slimbook-meta-executive` - Executive series laptop support
 - `slimbook-meta-gnome` - GNOME desktop integration
 - `slimbook-service` - System service for Slimbook features
 - `slimbook-qc71-kmod` + `slimbook-qc71-kmod-common` - QC71 laptop kernel module (fan, lightbar, performance)
-- `slimbook-yt6801-kmod` + `slimbook-yt6801-kmod-common` - YT6801 Ethernet kernel module
+- `slimbook-yt6801-kmod` + `slimbook-yt6801-kmod-common` - YT6801 Ethernet kernel module. Listed explicitly on purpose: `slimbook-meta-executive` does not require it, but the Executive does carry the controller (PCI `1f0a:6801`) and the driver is not in mainline - do not remove it
 
 ## Important Notes
 
