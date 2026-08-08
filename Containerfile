@@ -111,7 +111,7 @@ RUN <<-EOF
 		slimbook-yt6801-kmod \
 		slimbook-yt6801-kmod-common
 	do
-		rpm -q "${PACKAGE}"
+		rpm -q --whatprovides "${PACKAGE}"
 	done
 
 
